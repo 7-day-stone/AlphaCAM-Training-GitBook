@@ -1,0 +1,18 @@
+# Summary
+
+* [Part I: Getting Started](1. Getting Started)
+    * [Gather Information](1. Getting Started/A. Gather Information.md)
+    * [Alphacam Basics](1. Getting Started/B. Alphacam Basics.md)
+    * [Slab Safety](1. Getting Started/C. Slab Safety.md)
+* [Part II: Creating Your Cut File](2. Creating The Cut File)
+    * [Cleaning Up The Template File](2. Creating The Cut File/A. Cleaning Up The Template File.md)
+    * [Creating Seams](2. Creating The Cut File/B. Creating Seams.md)
+    * [Labelling Your File](2. Creating The Cut File/C. Labelling Your File.md)
+    * [Inserting Sink Templates](2. Creating The Cut File/D. Inserting Sink Templates.md)
+    * [Creating Dimensions](2. Creating The Cut File/E. Creating Dimensions.md)
+    * [Creating Laminations](2. Creating The Cut File/F. Creating Laminations.md)
+    * [Exporting Your Cut File](2. Creating The Cut File/G. Exporting Your Cut File.md)
+* [Part III: Creating Your CNC File](3. Creating Your CNC File)
+    * [Organizing Your File For CNC Work](3. Creating Your CNC File/A. Organizing Your File For CNC Work.md)
+* [Part IV: Finishing Up](4. Finishing Up)
+    * [Creating Your Binder](4. Finishing Up/A. Creating Your Binder.md)
