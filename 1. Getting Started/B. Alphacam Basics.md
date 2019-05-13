@@ -3,12 +3,13 @@ Alphacam can be an intimidating, however, with the provided hotkeys (as well as 
 ### Alphacam Keybinds
 
  * `x` - Explode
+ * `f` - Fillet
  * `c` - Copy
  * `t` - Trim
- * `d` - delete
- * `o` - offset
- * `m` - move
- * `s` - set material
+ * `d` - Delete
+ * `o` - Offset
+ * `m` - Move
+ * `s` - Set material
  * `F1` - Help
  * `F2` - Auto Snap On/Off
  * `F3` - Ortho Mode On/Off
@@ -26,23 +27,14 @@ Alphacam can be an intimidating, however, with the provided hotkeys (as well as 
  * `Ctrl + O` - Open File
  * `Ctrl + Insert` - Insert Alphacam Drawing
  * `Ctrl + S` - Save
- * `Ctrl + I` - Input CAD
- * `Ctrl + L` - List NC
- * `Ctrl + M` - Clear Memory
  * `Ctrl + P` - Printer/Plotter
  * `Ctrl + Z` - Undo
- * `Ctrl + Delete` - Delete
- * `Ctrl + F` - Start Point
  * `Ctrl + H` - Change
  * `Ctrl + A` - Zoom All
- * `Ctrl + W` - Zoom Window
- * `Ctrl + B` - Zoom Previous
  * `Ctrl + R` - Rotate
  * `Ctrl + G` - Ghost Tools
  * `Ctrl + T` - Text
  * `Ctrl + D` - Dimension
- * `Ctrl + U` - User Layers
- * `Ctrl + E` - Edit Operations
 
 ### Alphacam Tools
 

@@ -1,6 +1,6 @@
 Once imported, you will see a file similar looking to this one
 
-![BEGINNING FILE](http://tanner.havana.software/t0aKpF)
+![BEGINNING FILE](../images/beginningfile.png)
 
 You will then want to change the lines you need to Construction. To access the `change` tool, press `ctrl+h` and select **from** `Old Layer` **to** `Construction`
 
