@@ -1,6 +1,6 @@
 # Creating Your Binder
 
-### Coversheet
+## Coversheet
 
 You will need to start highlighting the cover sheet. Firstly you will need to print out your cover sheet page. to do this, press `ctrl+p`, then press enter, untick `draw axes` and tick `print black only`.
 
