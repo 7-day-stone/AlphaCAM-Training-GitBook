@@ -2,4 +2,4 @@ You will need to start highlighting. Firstly you will need to print out two of y
 
 Now you will need to highlight your paper. A finished paper generally looks like this
 
-![General paper](http://tanner.havana.software/8hcP2s)
+![General paper](../images/binder.png)
