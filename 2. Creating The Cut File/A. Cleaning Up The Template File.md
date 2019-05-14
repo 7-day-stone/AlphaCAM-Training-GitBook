@@ -8,4 +8,4 @@ Begin by hiding all layers. We're going to first delete the lines we dont need
 
 Start by unhiding the layer that the templator's dimensions are in, and delete them all. We will not ever be using the templator's dimensions, they are only for the templator to use to confirm their template is correct on site.
 
-![Deleting Template Dimensions](../image/deletetemplatedims.gif)
+![Deleting Template Dimensions](../images/deletetemplatedims.gif)
