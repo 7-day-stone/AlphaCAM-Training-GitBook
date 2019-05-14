@@ -1,56 +1,27 @@
-# Gather Information
+# Introduction
 
-Upon recipt of templater's paperwork, confirm all given data with Moraware's data
+When you're about to start a job, you will need to attend to the first thing on the program checklist, which is verifying information. There are several steps in the process of a job and information flows through several platforms and sources. Your job as a programmer is to filter through this information before you start programming. You are supposed to go through all information through all platforms and find any inconsistencies or issues.
 
-* Some details of the project may have changed since the templater received their paperwork and the job is ready for programming
-* Be sure to check the Job notes for anything that might not be written on the job information sheet.
-* Look for attachments from the assigned coordinator in Moraware. 
-* Look for any quotes
-* Look for the job information sheet
-* Verify sink model specifications
-* Verify slab material is in stock
+# JobTracker
 
-## Comparing Information
+Jobtracker is the bible, most if not all information should be on a job's JobTracker page. 
 
-Compare given data with current Moraware data and notify the coordinator or templater about any conflicts. The things you should check include
+*The very top should hold all of the notes from both the salesperson and the templator.* Be sure to read these notes first, they will often have information that you will need to pay attention to in order to program your jobs. These may have some details that the templator missed, so it's always good to have the template pulled up right beside Job Tracker so that you could verify information. 
 
-**Compare Moraware information with the buyer's selection sheet**
+Below are the *Job Activities*. Every job goes through a process, and every step of the process is scheduled and logged in the activities section for the job. You want to look at all of the activties and ensure that they look correct. If it's a home owner job, make sure that there is a `photo slabs` activity, and that there are slab IDs inside the activity notes. These are slabs that you will be using in Slabsmith to complete the job. if there are not any slab IDs, ensure that we even have the material at the shop. You will see material status in the activities as well. What you should pay most attention here in the activities section, is the program activity. Look for any notes left by somebody in this section, as they contain guidelines or instructions on what you need to do with this job to make it work.
 
-* Areas to receive granite or engineered stone to be programmed
-* Material; color and type
-* Edge detail, including whether or not it is laminated
-* Splash, including whether it is granite or tile.
+# Email
 
-**Sink Information**
+Next check your email for any information. Type in the job address and look for any emails that may have information regarding this job. 
 
-* Setbacks
-  * May be different from other areas due to location-kitchen versus island, for example
-  * May differ because of addition of a flip tray, sometimes referred to as a "soap dish"
-* Reveal or overhang finish
-* Whether holes are exposed or hidden by granite/stone
-* Orientation, if not standard
-* When laminations are more or less than the standard 1 1/2" 
-* Cooktop splash may be cut down due to a microwave
-* Shower surrounds may have height limitations
+Often times, there is information that was *not* inputted into jobtracker, in your emails. While everybody should be putting job details into job tracker, there are plenty of times where this does not happen, so you must remain alert, and check emails for any problems
 
-Firstly, print out the job information sheet for the rooms you will be working on. To print this sheet out, right click on the sheet's title, and click `Printable View`, then click the print button. It's not required to print this out first thing, but it's more helpful and efficient if you do right away.
+# Template
 
-![Job Information Printable View](http://tanner.havana.software/VvzJt0)
+The template is what we use to cut the entire job, if something is missed here, it will ruin the job
 
-Then Scroll down until you find the attached files. You will find a zip file along with a few other files, download the zip file, as it contains all you need.
+Templators usually include a bunch of notes in their jobs for the programmer and salesperson to look at. Make sure you read all of these notes and if you have questions on anything that the templator says, ask Andrew or Alfonso what it means and what to do about it.
 
-![Zip File Download](http://tanner.havana.software/0B49jG)
+Keep Job Tracker open while you look at the template. Make sure everything looks correct and the job information matches what's on the template
 
-Once downloaded, go to the directory you downloaded the file to, copy the downloaded zip, and paste it in our `Program` folder. The directory for this folder is `\\SLABSMITH\Users\Public\Program`.
-
-* This folder is not on your computer's local disk, it is on the computer labelled "SLABSMITH". You will need to be connected to the network to be able to access this folder.
-* Anything you delete/add/change in this folder on your computer, will delete/add/change on _all_ of our computers, so be careful what you are doing.
-
-After you've pasted this zip folder, extract it right there into the program folder. Once extracted, delete the zip file and navigate to the extracted folder.
-
-This folder has your job information inside of it. You'll want to start by opening the `pdf` that is titled `JOBNAME_print.pdf` or something similar.
-
-* This file has information on the template files. it will tell you which dxf is what, and it will have some job photos as well that you may need to gain more understanding on the job you're programming for.
-
-Once you figure out exactly which dxf files you're going to open, you can now open alphacam and get ready to start importing dxf files for work.
-
+# CounterGo (Home Owner Jobs Only)
