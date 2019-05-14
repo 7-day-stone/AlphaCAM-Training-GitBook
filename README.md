@@ -1,2 +1,4 @@
-# AlphaCam-Training
-Documents training new employees how to operate Alphacam efficiently and easily
+# Introduction
+
+Documents on training new employees to program using AlphaCAM and Slabsmith
+
