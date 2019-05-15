@@ -161,7 +161,7 @@ To run a jog miter on a CNC machine, we have to turn it into a euroseam. To chan
 
 Next, offset `o` the seam a 1/4" outward, so that we have material to take off with the CNC machine, just like we do with our finished edges
 
-![](../images/offsetseams.gif)
+![](../images/offsetseam.gif)
 
 Now all you have to do is fillet `f` the addouts to connect them to the geometry so that they are part of the piece, and then we change the original seam lines to construction lines to use later as CNC toolpaths
 
