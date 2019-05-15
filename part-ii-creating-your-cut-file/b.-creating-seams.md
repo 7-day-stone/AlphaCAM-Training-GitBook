@@ -145,35 +145,27 @@ And now your basic seam is complete. You know you did it right when you see that
 
 ### Jog Miters
 
+⚠️ **This seam can only go on inside corners**
+
+
+
 ### Euroseams
 
-A euro seam is also a common type of seam. You generally use this type of seam on L shaped countertops. to do a euro seam, you need to first find the corner you're making the seam on. Once the seam location is found, you need to offset 2.5" inwards from the construction line a quarter inch from the geometry line
+⚠️ **This seam can only go on inside corners**
 
-![offset in 2.5 gif](http://tanner.havana.software/mi8OsR.gif)
+Euroseams are jog miter seams that we run on the CNC machine
 
-fillet these lines 0 and then create a line going from the geometry line endpoint to the 2.5" offset line you just made. then press `f11` to select perpendicular to the horizontal 2.5" offset line you just made, and create a line going up passed the piece, just like so
+To run a jog miter on a CNC machine, we have to turn it into a euroseam. To change a jog miter to a euroseam, you must begin by using fillet `f` to give the inside corner a 2 1/2" radius.
 
-![euroseam start line gif](http://tanner.havana.software/53CceF.gif)
+![](../images/filletjogmiter.gif)
 
-Next delete the 2.5" offset line you made before, and fillet the new seam you just made with a 2.5" radius.
+Next, offset `o` the seam a 1/4" outward, so that we have material to take off with the CNC machine, just like we do with our finished edges
 
-![euro seam delete and radius gif](http://tanner.havana.software/UbiVqp.gif)
+![](../images/offsetseams.gif)
 
-Now use the break tool `b` and select your seam as a cutting geometry. Then break the construction and geometry lines that move throughout the whole piece, to separate them from the rest
+Now all you have to do is fillet `f` the addouts to connect them to the geometry so that they are part of the piece, and then we change the original seam lines to construction lines to use later as CNC toolpaths
 
-![breaking gif](http://tanner.havana.software/cyAcZd.gif)
-
-Now trim the other end of your seam line that you extended passed your piece.
-
-![trimming gif](http://tanner.havana.software/ZsUtuZ)
-
-Now copy your seam line over to the other piece just like with the other seam shown above, and offset .25" outward, just like with the other seam. The only difference here is that when you're offsetting a euro seam, you dont offset a line/arc, you offset the geometry. You do this because the euroseam contains two lines and an arc, so you need to select the whole thing at once to do it efficiently. The way you offset a geo vs a line/arc is inside your offset settings
-
-![offset settings for geo](http://tanner.havana.software/METeJw)
-
-Then repeat the next steps that were in the regular seam and your euro seam should look like this
-
-![finished euro seam](http://tanner.havana.software/1ewfXv)
+![](../images/offsetfillet.gif)
 
 ### Straight Miter
 
