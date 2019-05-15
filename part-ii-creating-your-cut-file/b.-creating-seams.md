@@ -1,35 +1,69 @@
 # Creating Seams
 
-One thing you will need to do is create any needed seams. Sometimes our slabs are not big enough to fit a piece of the counter top onto one slab. This is when you must add seams. The first thing you want to do is go into Moraware, where the job information is, and verify that a quote is available for you to look at. The uote section is right above the files section, where you downloaded the zip containing the job content.  
+One thing you will need to do is create any needed seams. Sometimes our slabs are not big enough to fit a piece of the counter top onto one slab. This is when you must add seams. 
+
+## Finding your seam location
+
+### CounterGo (Home Owner Only)
+
+The first thing you want to do is go into Moraware, where the job information is, and verify that a quote is available for you to look at. The quote section is right above the files section, where you downloaded the zip containing the job content.  
 Once found, right click on the quote and click `View Quote: '123 Example Job Site St.'`
 
-![quote section](http://tanner.havana.software/cNqYmb)
+You will be greeted by a layout of the countertops with some dimensions on it. Salespeople use this software to see how many slabs they will need to complete the job, to see what the square footage is, and to organize their costs.
+The salespeople will usually create their own seam locations here. You can tell where seams are by looking for dotted lines. Dotted lines in CounterGo represent seam locations.
 
-```text
----------------------------------------------------
----------------------------------------------------
----------------------------------------------------
-      ---- quote section to be worked on ---
----------------------------------------------------
----------------------------------------------------
----------------------------------------------------
-```
+The best way to think about seam locations in CounterGo is that they're all approximate. Salespeople cannot place seams accurately, and they should not be treated like they're completely accurate. CounterGo is just a platform to give the customer a quote on their countertops, so everything on it, including any dimensions, are approximate. Below are some examples of wrong seam locations in CounterGo, as well as how they should actually look in AlphaCAM.
 
-You will want to measure the dimensions of the slabs you're using are. The quote may not be accurate when it comes to slab sizes so you always want to double check so you know exactly if you need any seams, and where those seams should be if needed.
+![Seam Location In A Quote](../images/quoteseam.jpg)
 
-Once you know how big your slabs are you can now use that information to decide where to place a seam. Ideally you do not want a seam anywhere where it will be too noticable.
+Salespeople will always put a seam where it needs to be in order to fit it onto the slab. But they are not trained in programming, and will often make mistakes that we should avoid making
 
-```text
----------------------------------------------------
----------------------------------------------------
----------------------------------------------------
-      ---- write more on seam placement ---
----------------------------------------------------
----------------------------------------------------
----------------------------------------------------
-```
+Here are some common mistakes we should avoid, and how to fix them
 
-## Regular Seams
+![Wrong: Single Corner Seam](../images/singlecornerseam.jpg)
+
+Seams like the above would be a mistake. This is because when we seam up corners, it makes the corner a sharp inside corner. Having one corner be sharp, and the other corner be rounded would be something that could cause us to remake the counters for the customer. Mismatching corners are always a no-go. Below is a proper way to seam up a single inside corner
+
+![Right: Single Corner Seam](../images/singlecornerseamright.jpg)
+
+The above is correct because it leaves both corner radiuses equal, instead of one being a sharp corner and the other being a rounded corner. There are rare circumstances, however, where you will need to do a "wrong" single corner seam, but in that case, you'd leave the other inside corner as square as the material would allow (0" for natural stone, 3/8" for Quartz, and 1" for Corian) When doing a single corner seam correctly, ensure to place the seam about 3 1/2" away from the endpoint of the radius. 
+
+Below is an incorrect sink seam location
+
+![Wrong: Sink Seam Location](../images/sinkseamwrong.jpg)
+
+This is wrong because the seam is not going through the center of the sink. In CounterGo, you'll sometimes see the salesperson place a seam down a cooktop or sink, and it wont be perfectly centered with the sink, this is wrong. CounterGo allows you to place seams where ever you want, and it doesnt tell you where the center of the sink is so salespeople can only get their seams *near* where they want it to be, not exactly where they want it to be or exactly where it should be.
+
+### Track Homes
+
+Track homes are very easy to find seam locations for. Because these houses are essentially copy-paste houses, and are all bid with set seam locations, all you have to do is look back at past track homes and copy their seam locations. 
+
+When looking back at past homes, look for track houses that look almost exactly like the one you're programming, then copy it's seam locations. If you cannot find any seam locations, ask for assistance.
+
+### Finding Seam Locations Yourself
+
+Sometimes there may not be a quote or any past homes to look at to get your seam locations, and you'll have to create some seams from scratch. Here are some general rules when looking for places to create your seams.
+
+* Do not place over a dish washer if possible
+      * If 3cm material, you **cannot** place a seam over a dishwasher at all. This is due to lack of support at the seams.
+
+* Do not do a Euroseam or a Jog Miter seam if only one inside corner is getting one. *Do not mismatch iside corners*
+
+* If placing multiple seams in a long countertop, do not do the below:
+![](../images/wrongmultseam.jpg)
+Instead, if you need three seams in a long countertop, make them all equal distance apart, following this guide:
+1. Get full measurement of countertop, and divide it by the number of pieces it needs to be in
+![](../images/rightmultseam.jpg)
+2. Now offset an edge of the countertop by that number, and then offset that line, and so on until you have your seam locations
+![](../images/rightmultseam1.jpg)
+3. The lines you offset are for getting the starting points of your seams. **Do not use these lines as your actual seams as they are crooked!** Using the offset lines, create straight seams starting at the intersection of the offset lines, and the geometry.
+
+* If material is corian, the seam location must be 4" (You can get away with 3 1/2" - 3 1/4") away from any inside corner, dishwasher, and sink.
+
+* If material is granite, dont make pieces too large or in such awkward shapes. Remember that Granite is fragile and heavy. 
+![This Would Break](../images/wouldbreak.jpg)
+
+## Straight Seams
 
 A seam is just a line separating one piece from another so we can fit that countertop on our slabs. Seam placement is important, but once you figure out where to place your seam, you're ready to decide what kind of seam you want to implement. In this example, a regular seam will be made.
 

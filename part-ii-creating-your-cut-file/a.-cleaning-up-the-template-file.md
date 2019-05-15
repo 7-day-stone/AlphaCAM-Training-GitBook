@@ -1,5 +1,9 @@
 # Cleaning Up The Template File
 
+This is the first step after importing your files into AlphaCAM. You must change all the lines to fit the layers you use, and delete any you dont need. Then you'll need to create your inside corner radiuses.
+
+## Changing Layers
+
 Once imported, you will see a file similar looking to this one
 
 ![Beginning File](../.gitbook/assets/beginningfile.png)
@@ -30,3 +34,18 @@ Firstly, unhide all of your layers, then hide **just** your construction lines. 
 
 Now is a good time to make sure that all of your lines are joined together, and that there are no common lines. Common lines are multiple lines that are on top of each other and look like a single line because of it. To ensure everything is joined together and that there are no common lines, we'll use the common line removal tool. The common line removal tool can be found in `Geometry -> Special Funtions -> Common Line Removal`
 
+## Creating Inside Corner Radiuses
+
+Next you must place any inside corner radiuses you may need. To do this, you must first know what your seam locations will be. **Finding your seam locations is talked about on the next page**. Once you know your seam locations, fillet `f` any inside corners there may be.
+
+*What are inside corner radiuses? What are outside corner radiuses?*
+
+![Photo Example Showing Inside vs. Outside Corners](../images/insideoutsidecorners.jpg)
+
+In this stage of programming, cleaning up the file, we should only be creating inside corner radiuses, not outside corner radiuses. This is because our seam locations, laminations, and dimensions are all determined by inside corner radiuses. The case is not the same for *most* outside corners. If we wait too long to fillet our inside corners, we'll have to change a bunch of things at once, putting us behind. If we do our outside corners too early, it'll take longer to do all of our dimensions, or they will just come out wrong.
+
+Inside corners where ever there is a finished edge, should always be 2 1/2". They should never be less than that and any less than that is not able to be ran on the CNC. if, however, it is not a finished edge, then your inside corner radiuses will be determined by what material is being used. 
+
+If the material is a natural stone (granite), a corner radius is not required. They can be kept completely square. 
+If the material is any kind of quartz (Ceasarstone, Silestone, Optimus, LG Viatera, Cambria, and other brand names) then all inside corners, regardless of where they are, require at least a 3/8" inside corner radius. Even if it's back up against a wall, it needs to be at least 3/8". There is, however, no requirement for outside corner radiuses.
+If the material is Corian or LG Hi-macs solid surface, all finished edge inside corner radiuses must be at least 1".

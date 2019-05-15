@@ -1,6 +1,6 @@
 # Alphacam Basics
 
-Alphacam can be an intimidating, however, with the provided hotkeys \(as well as the ability to create your own custom hotkeys\), you can very easily get started without spending _too_ much time learning the locations of every tool and action.
+Alphacam can be an intimidating, however, with the provided hotkeys \(as well as the ability to create your own custom hotkeys\), you can very easily get started without spending __too__ much time learning the locations of every tool and action.
 
 ## Alphacam Keybinds
 
