@@ -210,3 +210,14 @@ After rotating the seam line, now use the trim tool to trim the seam line to the
 Next you'll need to break apart the countertops using your seam line. Press `b` to initiate the break tool, and use your seam line as a cutting geometry
 
 ![Break Tool](../images/breakcuttinggeo.jpg)
+
+Once your seam lines are selected, right click, and then left click all of the lines you want to break using your seam line. click all lines that pass through them and then right click again to finalize the breaking. 
+After the pieces are broken, you can then move one of the pieces over, left/right, up/down. We make pieces separated by an inch. So once you've broke your pieces, move `m` them 1" away.
+
+![Moving Pieces 1" Away](../images/move.gif)
+
+Next, use your copy tool `c` to copy the seam line(s) over to the other piece
+
+![](../images/copyingseams.gif)
+
+Now all you have to do is join `j` the geometries together and the seam is finished!
