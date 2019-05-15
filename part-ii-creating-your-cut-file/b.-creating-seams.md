@@ -180,3 +180,25 @@ Then repeat the next steps that were in the regular seam and your euro seam shou
 ⚠️ **This seam can only go on inside corners**
 
 ⚠️ **This seam can only be used on Miter edge jobs**
+
+First, use your line tool `L` to begin creating a line
+
+Press `f6` (endpoint of line/arc) to get to the endpoint of the line that goes to the inside corner
+
+![](../images/f6tocorner.jpg)
+
+then start your line there, and press `f11` (perpendicular to line/arc), and drag up past the countertop back edge
+
+![](../images/f11to.jpg)
+
+![](../images/dragup.jpg)
+
+Once you've created your line, use the rotate tool `ctrl + r` and click the base of the seam line (Where it meets the inside corner) using `f6` to get the exact endpoint
+
+Then rotate the seam line either -0.0001 or 0.0001. You'll know which way to rotate it because you do not want the seam line to go out passed either of the pieces.
+
+![Wrong: Line sticks out passed right piece](../images/wrongpassed.jpg)
+
+![Right: Line does not stick out passed right piece](../images/rightpassed.jpg)
+
+![Rotating -0.0001](../images/rotatesmall.jpg)
