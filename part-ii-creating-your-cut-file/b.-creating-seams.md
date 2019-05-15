@@ -202,3 +202,11 @@ Then rotate the seam line either -0.0001 or 0.0001. You'll know which way to rot
 ![Right: Line does not stick out passed right piece](../images/rightpassed.jpg)
 
 ![Rotating -0.0001](../images/rotatesmall.jpg)
+
+After rotating the seam line, now use the trim tool to trim the seam line to the countertop/splash
+
+![Trimming Seams](../images/trimmingseams.gif)
+
+Next you'll need to break apart the countertops using your seam line. Press `b` to initiate the break tool, and use your seam line as a cutting geometry
+
+![Break Tool](../images/breakcuttinggeo.jpg)
