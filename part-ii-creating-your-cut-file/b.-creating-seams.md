@@ -178,4 +178,5 @@ Then repeat the next steps that were in the regular seam and your euro seam shou
 ### Straight Miter
 
 ![](../images/warning.png) **This seam can only go on inside corners**
+
 ![](../images/warning.png) **This seam can only be used on Miter edge jobs**
