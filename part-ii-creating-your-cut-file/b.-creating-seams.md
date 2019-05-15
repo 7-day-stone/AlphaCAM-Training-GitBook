@@ -63,7 +63,9 @@ Instead, if you need three seams in a long countertop, make them all equal dista
 * If material is granite, dont make pieces too large or in such awkward shapes. Remember that Granite is fragile and heavy. 
 ![This Would Break](../images/wouldbreak.jpg)
 
-## Straight Seams
+## Creating Seams
+
+### Straight
 
 A seam is just a line separating one piece from another so we can fit that countertop on our slabs. Seam placement is important, but once you figure out where to place your seam, you're ready to decide what kind of seam you want to implement. In this example, a regular seam will be made.
 
@@ -141,7 +143,9 @@ Now you need to fillet 0 these new geo lines to the rest of your piece.
 
 And now your basic seam is complete. You know you did it right when you see that **no purple lines extend out to the seam's geometry line**. The reason why you don't want that is because if they do extend out that far, that means when the seams get cut on the CNC machine, you're now taking a quarter inch off each side of the seam, which would make the finished countertop a half inch short, which would ruin the piece and you'd have to redo it all.
 
-## Euroseams
+### Jog Miters
+
+### Euroseams
 
 A euro seam is also a common type of seam. You generally use this type of seam on L shaped countertops. to do a euro seam, you need to first find the corner you're making the seam on. Once the seam location is found, you need to offset 2.5" inwards from the construction line a quarter inch from the geometry line
 
@@ -171,3 +175,7 @@ Then repeat the next steps that were in the regular seam and your euro seam shou
 
 ![finished euro seam](http://tanner.havana.software/1ewfXv)
 
+### Straight Miter
+
+![](https://cdn.jsdelivr.net/emojione/assets/4.0/png/128/26a0.png) **This seam can only go on inside corners**
+![](https://cdn.jsdelivr.net/emojione/assets/4.0/png/128/26a0.png) **This seam can only be used on Miter edge jobs**
