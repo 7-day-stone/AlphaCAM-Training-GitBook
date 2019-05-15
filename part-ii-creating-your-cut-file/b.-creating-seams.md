@@ -177,5 +177,5 @@ Then repeat the next steps that were in the regular seam and your euro seam shou
 
 ### Straight Miter
 
-![](https://cdn.jsdelivr.net/emojione/assets/4.0/png/128/26a0.png) **This seam can only go on inside corners**
-![](https://cdn.jsdelivr.net/emojione/assets/4.0/png/128/26a0.png) **This seam can only be used on Miter edge jobs**
+![](../images/warning.png) **This seam can only go on inside corners**
+![](../images/warning.png) **This seam can only be used on Miter edge jobs**
