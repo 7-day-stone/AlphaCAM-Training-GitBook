@@ -40,23 +40,33 @@ Alphacam can be an intimidating, however, with the provided hotkeys \(as well as
 
 ## Alphacam Tools
 
-Text Editor
+AlphaCAM's tools are organized by tabs, and you can take tools from those tabs and create ribbon shortcuts for them up at the top.
+To create a tool shortcut on the ribbon, right click a tool and select `Add to Quick Access Toolbar`
 
-![Text Editor Button](http://tanner.havana.software/XOiRz0)
+### Home
+* Insert - Allows you to import other alphacam `.asd` files into your drawing
+* Input CAD - Allows you to import `.dxf` files into your drawing (Inserts them at 0,0)
+* Output CAD - Exports your drawing to dxf
+* Configure - Allows you to reach AlphaCAM's core settings
 
-Backsplash Tool \(We use this for creating laminations\)
+### Edit
+* Move - Move your selection
+* Copy - Copy yout selection
+* Rotate - Rotate selections
+* Mirror - Mirror selection
+* Scale - Scales selection. Number inputted is what the selection dimensions will be multiplied by to get the result. (Line is 1", scale by 0.3 and it will make the line 1 * 0.3)
+* Break - Breaks lines and arcs. You can choose single breaking points or you can use a cutting geometry (Imagine cutting geometry as a blade cutting the lines it passes over)
+* Trim - Trim lines based off of your selection. Imagine your selection is the blade and you're cutting through things with it
 
-![Select Saber Machine Profile](http://tanner.havana.software/H6aE5a)
+### View
+* Display Options - Enable things like ghost tools, breaks, rapids, etc.
+* Background Color - Change your background color
 
-![BackSplash Tool Location](http://tanner.havana.software/WWfSEI)
+### Geometry
+* Line - Draw a line
+* Arc - Includes several options on arcs you could draw
 
-## Changing Alphacam keybinds
-
-To add or remove keybinds, you go to `File --> Customise --> Keyboard`
-
-![Keybind editing](http://tanner.havana.software/mgfobt)
-
-![Keybind menu](http://tanner.havana.software/mIA0JL)
+![](../images/qap.jpg)
 
 ## Layers
 
