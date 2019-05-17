@@ -19,4 +19,3 @@
   * [Creating Your Binder](part-iv-finishing-up/a.-creating-your-binder.md)
 * [Part V: Corian](part-v-corian/README.md)
   * [Corian Specific Requirements](part-iv-finishing-up/a.-corian-specific-requirements.md)
-

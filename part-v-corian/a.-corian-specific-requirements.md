@@ -13,6 +13,7 @@
 * Field seams: Seams that are put together in the field at time of install
     * Should have a standard addout of 1/4". Could be bigger or smaller, but the standard is 1/4"
     * Use for pieces that would be too big, or impossible to install as one piece.
+* Backsplash must also have these addouts
 
 ## Corners
 
@@ -40,3 +41,15 @@
 ### Inside Corner Lamination
 
 When doing inside corner laminations, you must do them the same way we do inside corner lams on other material, except you have to make two of them, because Corian is 1/2" thick and we want it to finish at 1 1/2" thick.
+
+Inside corners should look like this
+
+![](../images/corianinsidecorner.png)
+
+Notice the double inside corner laminations, and how there are two of them, as well as two sets of **vertical** laminations *just where the inside corners are*.
+We made two inside corner laminations to make the edge finish at 1 1/2" thick, but the second set of laminations are not for making the edge finish thicker. When fabricating corian, all seams and inside corners must have some extra support.
+
+![](../images/scab.png)
+
+Above is one reason why we cut double vertical lams at inside corners. The fabricator will glue the inside corner lams in with the vertical lams, then he will grind the inside lams down to be flush with the vertical lams to create space for the scabs we make. The fabricator will cut out the scabs from the 2nd lamination we cut, and place them behind both the inside corner lam, and the vertical lams next to it, to create some support for the inside corner. He uses a small amount of material for this but he uses the rest of the material (If only a little bit of double vertical lams were cut, create some extra strips) for supporting the shop seams. All shop seams have similar supports.
+
