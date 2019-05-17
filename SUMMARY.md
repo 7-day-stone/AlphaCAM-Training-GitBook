@@ -17,4 +17,6 @@
   * [Organizing Your File For CNC Work](part-iii-creating-your-cnc-file/a.-organizing-your-file-for-cnc-work.md)
 * [Part IV: Finishing Up](part-iv-finishing-up/README.md)
   * [Creating Your Binder](part-iv-finishing-up/a.-creating-your-binder.md)
+* [Part V: Corian](part-v-corian/README.md)
+  * [Corian Specific Requirements](part-iv-finishing-up/a.-corian-specific-requirements.md)
 
