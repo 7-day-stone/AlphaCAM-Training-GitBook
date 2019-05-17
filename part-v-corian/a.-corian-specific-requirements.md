@@ -49,7 +49,7 @@ Inside corners should look like this
 Notice the double inside corner laminations, and how there are two of them, as well as two sets of **vertical** laminations *just where the inside corners are*.
 We made two inside corner laminations to make the edge finish at 1 1/2" thick, but the second set of laminations are not for making the edge finish thicker. When fabricating corian, all seams and inside corners must have some extra support.
 
-![](../images/scab.png)
+![](../images/scabs.png)
 
 Above is one reason why we cut double vertical lams at inside corners. The fabricator will glue the inside corner lams in with the vertical lams, then he will grind the inside lams down to be flush with the vertical lams to create space for the scabs we make. The fabricator will cut out the scabs from the 2nd lamination we cut, and place them behind both the inside corner lam, and the vertical lams next to it, to create some support for the inside corner. He uses a small amount of material for this but he uses the rest of the material (If only a little bit of double vertical lams were cut, create some extra strips) for supporting the shop seams. All shop seams have similar supports.
 
